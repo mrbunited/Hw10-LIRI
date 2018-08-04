@@ -19,7 +19,7 @@ function showTweets() {
                 else{
                     console.log("My 20 latest tweets:")
                 console.log("====================");
-                for (var i=0; i <tweets.length; i++){
+                for (var i = 0; i < tweets.length; i++){
                     console.log("Tweet # " + (i+1) + ".");
                     console.log(tweets[i]);
                 }
@@ -29,16 +29,21 @@ function showTweets() {
 
         };
 
+function showSpotify(){};
+function showMovie(){};
+function showRandom(){
+    var fs = require("fs");
+};
 
 if (input === "my-tweets"){
 showTweets();
 }
 else if (input === "spotify-this-song"){
-
+showSpotify();
 }
 else if (input === "movie-this"){
-
+showMovie();
 }
 else if (input === "do-what-it-says"){
-
-} 
+showRandom();
+}

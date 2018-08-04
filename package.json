@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mrbunited/Hw10-LIRI#readme",
   "dependencies": {
     "dotenv": "^6.0.0",
+    "fs": "0.0.1-security",
     "twitter": "^1.7.1"
   }
 }
